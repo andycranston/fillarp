@@ -1,5 +1,5 @@
 /*
- *  @(!--#) @(#) fillarp.c, version 001, 29-november-2018
+ *  @(!--#) @(#) fillarp.c, version 005, 29-november-2018
  *
  *  fill the arp table with a range of possible entries over a IPv4 subnet
  *
@@ -31,7 +31,7 @@
 
 #define FAILSAFE_MAX 256
 
-#define MESSAGE_TEXT "This UDP packet sent by program fillarp by Andy Cranston (andy@cranstonhub.com)"
+#define MESSAGE_TEXT "This UDP packet sent by program fillarp by Andy Cranston (andy@cranstonhub.com) - https://github.com/andycranston/fillarp"
 
 /*****************************************************************************/
 
