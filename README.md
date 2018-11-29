@@ -2,7 +2,15 @@
 
 Fill ARP table by sending dummy packets to a specified IPv4 address range.
 
-## Why is this useful
+## Before reading more ...
+
+You might want to look at the `arping` command by Thomas Habets.  Here are the details:
+
+> Arping was written by Thomas Habets <thomas@habets.se>.
+> http://www.habets.pp.se/synscan/
+> git clone http://github.com/ThomasHabets/arping.git
+
+## Why is the fillarp command useful?
 
 By sending dummy packets to a range of IP addresses on the local LAN
 segment a side effect is that the local ARP (Address Resolution Protocol)
