@@ -317,9 +317,9 @@ Address                  HWtype  HWaddress           Flags Mask            Iface
 
 ## Warnings
 
-You must be careful not to fill up the ARP cache on you system.  With this
+You must be careful not to fill up the ARP cache on your system.  With this
 in mind the `fillarp` command will never send more than 256 packets in
-any single run.  Most UNIX/Linux ARP caches can hold 2048 enties so a
+any single run.  Most UNIX/Linux ARP caches can hold 2048 entries so a
 256 packet limit seems safe.
 
 If in doubt about running `fillarp` on a host check with your local
